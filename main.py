@@ -1,4 +1,4 @@
-
+from sort_algs import quick_sort, partition
 
 
 if __name__ == "__main__":
@@ -25,7 +25,7 @@ if __name__ == "__main__":
                 flag = False
             except Exception:
                 pass
-        a.append(a_i)
+        a.append([i, a_i])
     b = []
     for i in range(n):
         flag = True
@@ -37,5 +37,9 @@ if __name__ == "__main__":
                 flag = False
             except Exception:
                 pass
-        b.append(b_i)
-    print(n, a, b)
+        b.append([i, b_i])
+    quick_sort(a, 0, len(a) - 1)
+    quick_sort(b, 0, len(b) - 1)
+    summ = 0
+    for i in range(n):
+        pass
