@@ -23,3 +23,6 @@ This python script sorts input data and calculates minimum summ of taxi rides!
 
 Exception coverage:
 ![Example image3](https://github.com/mruax/PP_labwork08_Taxi_sort/blob/master/src/example3.png?raw=true)
+
+Обновленный пример со словами:
+![Example image4](https://github.com/mruax/PP_labwork08_Taxi_sort/blob/master/src/example4.png?raw=true)

@@ -1,4 +1,7 @@
+import pymorphy2
+
 from sort_algs import quick_sort
+from text_functions import translate_text, num_to_words
 
 
 if __name__ == "__main__":
@@ -49,4 +52,13 @@ if __name__ == "__main__":
         y = b[n - 1 - i][1]
         summ += x * y
         print(f"Сотрудник №{a[i][0] + 1} - {x} км * {y} руб/км = {x * y} руб.")
+
+    morph = pymorphy2.MorphAnalyzer()
+    ruble = morph.parse('рубль')[0]
+    ruble = ruble.make_agree_with_number(summ).word
+    number = num_to_words(summ)
+    number = translate_text(number)
+    number = morph.parse(number)[0].normal_form
+
     print(f"Общая сумма - {summ} руб.")
+    print(f"Простыми словами - {number} {ruble}")
