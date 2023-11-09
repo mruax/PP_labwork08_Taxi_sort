@@ -1,4 +1,4 @@
-from sort_algs import quick_sort, partition
+from sort_algs import quick_sort
 
 
 if __name__ == "__main__":
@@ -22,7 +22,8 @@ if __name__ == "__main__":
             a_i = input(f"Введите натуральное число a_{i + 1} — расстояние от работы до дома сотрудника (в км): ")
             try:  # проверка на корректность
                 a_i = int(a_i)
-                flag = False
+                if a_i > 0:
+                    flag = False
             except Exception:
                 pass
         a.append([i, a_i])
@@ -34,7 +35,8 @@ if __name__ == "__main__":
             b_i = input(f"Введите натуральное число b_{i + 1} — тариф в рублях за проезд одного километра в такси: ")
             try:  # проверка на корректность
                 b_i = int(b_i)
-                flag = False
+                if b_i > 0:
+                    flag = False
             except Exception:
                 pass
         b.append([i, b_i])
