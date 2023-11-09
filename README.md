@@ -13,6 +13,9 @@ or your default ide run alg.
 
 This python script sorts input data and calculates minimum summ of taxi rides!
 
+Внутри реализована быстрая сортировка с разбиением списка через три указателя (partition содержит алгоритм LSD - Less/Equal/Greater), опорным элементом выбирается случайный среди всех. Для случайных данных в рамках этой задачи такой сортировки будет достаточно (сложность в среднем - O(n*logn)).
+Списки также содержат индексы сотрудников, поэтому алгоритм сортировки является устойчивым.
+
 # Examples
 
 ![Example image1](https://github.com/mruax/PP_labwork08_Taxi_sort/blob/master/src/example1.png?raw=true)
