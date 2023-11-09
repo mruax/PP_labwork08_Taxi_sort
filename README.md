@@ -26,3 +26,6 @@ Exception coverage:
 
 Обновленный пример со словами:
 ![Example image4](https://github.com/mruax/PP_labwork08_Taxi_sort/blob/master/src/example4.png?raw=true)
+
+Обновленный пример с индексами такси:
+![Example image5](https://github.com/mruax/PP_labwork08_Taxi_sort/blob/master/src/example5.png?raw=true)
