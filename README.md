@@ -18,14 +18,14 @@ This python script sorts input data and calculates minimum summ of taxi rides!
 
 # Examples
 
-![Example image1](https://github.com/mruax/PP_labwork08_Taxi_sort/blob/master/src/example1.png?raw=true)
-![Example image2](https://github.com/mruax/PP_labwork08_Taxi_sort/blob/master/src/example2.png?raw=true)
+![Example image 1](https://github.com/mruax/PP_labwork08_Taxi_sort/blob/master/src/example1.png?raw=true)
+![Example image 2](https://github.com/mruax/PP_labwork08_Taxi_sort/blob/master/src/example2.png?raw=true)
 
 Exception coverage:
-![Example image3](https://github.com/mruax/PP_labwork08_Taxi_sort/blob/master/src/example3.png?raw=true)
+![Example image 3](https://github.com/mruax/PP_labwork08_Taxi_sort/blob/master/src/example3.png?raw=true)
 
 Обновленный пример со словами:
-![Example image4](https://github.com/mruax/PP_labwork08_Taxi_sort/blob/master/src/example4.png?raw=true)
+![Example image 4](https://github.com/mruax/PP_labwork08_Taxi_sort/blob/master/src/example4.png?raw=true)
 
 Обновленный пример с индексами такси:
-![Example image5](https://github.com/mruax/PP_labwork08_Taxi_sort/blob/master/src/example5.png?raw=true)
+![Example image 5](https://github.com/mruax/PP_labwork08_Taxi_sort/blob/master/src/example5.png?raw=true)
