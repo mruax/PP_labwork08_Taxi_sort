@@ -41,5 +41,10 @@ if __name__ == "__main__":
     quick_sort(a, 0, len(a) - 1)
     quick_sort(b, 0, len(b) - 1)
     summ = 0
+    print("В порядке сортировки стоимости:")
     for i in range(n):
-        pass
+        x = a[i][1]
+        y = b[n - 1 - i][1]
+        summ += x * y
+        print(f"Сотрудник №{a[i][0] + 1} - {x} км * {y} руб/км = {x * y} руб.")
+    print(f"Общая сумма - {summ} руб.")
