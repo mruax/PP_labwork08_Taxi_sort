@@ -51,7 +51,7 @@ if __name__ == "__main__":
         x = a[i][1]
         y = b[n - 1 - i][1]
         summ += x * y
-        print(f"Сотрудник №{a[i][0] + 1} - {x} км * {y} руб/км = {x * y} руб.")
+        print(f"Сотрудник №{a[i][0] + 1} - {x} км * {y} руб/км = {x * y} руб. (такси №{b[n - 1 - i][0] + 1})")
 
     morph = pymorphy2.MorphAnalyzer()
     ruble = morph.parse('рубль')[0]
